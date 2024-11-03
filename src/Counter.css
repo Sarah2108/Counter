@@ -1,0 +1,31 @@
+.counter {
+  margin-top: 20px;
+  font-size: 4em; /* Tamanho do texto do contador maior */
+  color: #ffffff; /* Cor do texto do contador */
+  font-weight: bold; /* Deixa o texto em negrito */
+  transition: transform 0.3s;
+  background-color: #28a745; /* Cor de fundo do contador */
+  border-radius: 8px; /* Cantos arredondados */
+  padding: 20px; /* Espaçamento interno */
+  display: inline-block; /* Faz com que o fundo do contador se ajuste ao texto */
+}
+
+.counter:hover {
+  transform: scale(1.1); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+
+button {
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove borda padrão */
+  border-radius: 4px; /* Bordas arredondadas */
+  padding: 10px 15px; /* Espaçamento interno do botão */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+  transition: background-color 0.3s, transform 0.2s; /* Transição suave na cor do fundo */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor do botão ao passar o mouse */
+  transform: scale(1.05); /* Leve aumento de tamanho ao passar o mouse */
+}
