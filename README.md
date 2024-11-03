@@ -24,7 +24,7 @@ Este projeto é um formulário simples em React que coleta e valida um endereço
 
    ```bash
    git clone <https://github.com/Sarah2108/Counter.git>
-   cd formulario-react
+   cd meu-contador
 
 2. **Instale as dependências:**
 
