@@ -1,8 +1,8 @@
-# Formulário de E-mail com React, Formik e Yup
+# Meu contador
 
 ## Descrição do Projeto
 
-Este projeto é um formulário simples em React que coleta e valida um endereço de e-mail. Ele utiliza as bibliotecas **Formik** para gerenciar o estado do formulário e **Yup** para validação de dados, garantindo que o usuário insira um e-mail válido antes do envio.
+E aplicação simples desenvolvida em React que permite aos usuários incrementar e decrementar um contador. A interface é composta por um display que mostra o valor atual do contador e dois botões: um para incrementar e outro para decrementar o valor
 
 **Estrutura do Projeto**
 
@@ -43,10 +43,9 @@ npm start
 http://localhost:3000
 
 6. **Instruções de Uso:**
-Preencha o campo de e-mail no formulário.
-Clique no botão "Enviar".
-Mensagens de erro aparecerão se o e-mail for inválido ou o campo estiver vazio.
-Se o e-mail for válido, um alerta exibirá o e-mail enviado.
+Incrementar: Clique no botão "Incrementar" para aumentar o valor do contador em 1.
+Decrementar: Clique no botão "Decrementar" para diminuir o valor do contador em 1.
+O valor atual do contador será exibido em um <h1> no centro da página. Você verá o número atualizado toda vez que interagir com os botões.
 
 6. **Lista de Colaboradores:**
 Sarah Pucci de Oliveira
