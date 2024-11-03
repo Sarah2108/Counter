@@ -1,38 +1,64 @@
+/* Estilos principais da aplicação */
+.app {
+  font-family: 'Arial', sans-serif; /* Define a fonte da aplicação */
+  text-align: center; /* Centraliza o texto */
+  background-color: #f0f0f0; /* Cor de fundo suave */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Cantos arredondados para um visual mais suave */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidade */
+}
+
+/* Estilos para o título da aplicação */
+.title-box {
+  background-color: #007bff; /* Cor de fundo do título */
+  color: white; /* Cor do texto do título */
+  border-radius: 8px; /* Cantos arredondados */
+  padding: 15px; /* Espaçamento interno */
+  margin-bottom: 20px; /* Espaçamento abaixo do título para separar do conteúdo */
+  font-size: 2.5em; /* Aumenta o tamanho da fonte do título */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra para destacar o texto */
+}
+
+/* Estilos para o logo da aplicação */
 .App {
-  text-align: center;
+  text-align: center; /* Centraliza o conteúdo do App */
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* Altura do logo responsiva */
+  pointer-events: none; /* Evita interações com o logo */
 }
 
+/* Animação de rotação para o logo, caso o usuário não tenha preferências de movimento */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* Animação contínua do logo */
   }
 }
 
+/* Estilos do cabeçalho da aplicação */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34; /* Cor de fundo escura */
+  min-height: 100vh; /* Ocupa toda a altura da viewport */
+  display: flex; /* Usa flexbox para o layout */
+  flex-direction: column; /* Coloca os itens em coluna */
+  align-items: center; /* Alinha itens no centro horizontalmente */
+  justify-content: center; /* Centraliza itens verticalmente */
+  font-size: calc(10px + 2vmin); /* Tamanho de fonte responsivo */
+  color: white; /* Cor do texto */
 }
 
+/* Estilos para links */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Cor do link */
 }
 
+/* Animação para o logo */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Início da rotação */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Fim da rotação */
   }
 }
